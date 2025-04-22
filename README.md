@@ -21,7 +21,7 @@ podman machine start
 Nationality is configuarable for each API in Makefile as variable.
 
   ```bash
-   git clone https://github.com/your-username/ppl.git
+   git clone https://github.com/arewhstar/ppl.git
    cd ppl
    make run-all
 ```
