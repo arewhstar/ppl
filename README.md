@@ -10,13 +10,19 @@
 - [Podman](https://podman.io/) installed and available in your system path  
   (You can alternatively use Docker with slight modifications)
 
+```bash
+sudo apt install podman
+```
+
 ## ⚙️ Setup & Usage
 
-     ```bash
+Nationality is configuarable for each API in Makefile as variable.
+
+  ```bash
    git clone https://github.com/your-username/ppl.git
    cd ppl
    make run-all
-   ```
+```
 
 **This will:**
 
@@ -26,12 +32,13 @@
 
 ## ⚙️ Endpoints
 
-    ```bash
+   ```bash
     http://localhost:8080/person/{firstname}
     http://localhost:8081/person/{firstname}
-    ```
+   ```
 
 ## 🛑 Stop
-    ```bash
+
+  ```bash
     make stop-all
-    ```
+  ```
