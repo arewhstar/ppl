@@ -12,6 +12,8 @@
 
 ```bash
 sudo apt install podman
+podman machine init
+podman machine start
 ```
 
 ## ⚙️ Setup & Usage
